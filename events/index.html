@@ -8,35 +8,7 @@
         <link href="../main.css" rel="stylesheet">
     </head>
     <body>
-        <script>
-            window.fbAsyncInit = function () {
-                FB.init({
-                    appId: '664792350330137',
-                    xfbml: true,
-                    version: 'v2.5'
-                });
-
-                FB.api(
-                        "/{page-id}/events",
-                        function (response) {
-                            if (response && !response.error) {
-                                
-                            }
-                        }
-                );
-            };
-
-            (function (d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) {
-                    return;
-                }
-                js = d.createElement(s);
-                js.id = id;
-                js.src = "//connect.facebook.net/en_UK/sdk.js";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
+        <script src="loadevents.js"></script>
         <div class="nav">
             <div class="container">
                 <ul class="pull-left">
@@ -84,7 +56,6 @@
                 </div>
             </div>
         </div>
-
     </body>
 
 </html>
