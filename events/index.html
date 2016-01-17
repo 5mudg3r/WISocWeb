@@ -6,10 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../bootstrap.css" rel="stylesheet"> 
         <link href="../main.css" rel="stylesheet">
+        <link href='events.css' rel="stylesheet">
     </head>
     <body>
         <script src="../jquery-1.12.0.js"></script>
-        <script src="loadevents.js"></script>
+        <!--<script src="loadevents.js"></script>-->
         <div class="nav">
             <div class="container">
                 <ul class="pull-left">
@@ -48,7 +49,44 @@
 
         <div class ="events-list">
             <div class="container">
-                <ul class="events"></ul>
+                <div class="event">
+                    <div class="top-bar">
+                        <p class="start_time">START TIME</p>
+                        <h3 class="name">Event 1</h3>
+                        <ul class="guest_count">                 
+                            <li class ="attending_count">45</li>
+                            <li class="maybe_count">134</li>
+                            <li class="declined_count">23</li>
+                        </ul>
+                    </div>
+                    <div class="bottom-bar">
+                        <p class="description">
+                            This is a description of the event. It will be taking place whenever, wherever etc
+                            You should definitely come along it will be fun!
+                        </p>
+                        <button>I'm Going! :)</button>
+                        <button>I'm Can't Make It! :(</button>
+                    </div>
+                </div>
+                <div class ="event">
+                    <div class="top-bar">
+                        <p class="start_time">START TIME</p>
+                        <h3 class="name">Event 2</h3>
+                        <ul class="guest_count">                 
+                            <li class ="attending_count">54</li>
+                            <li class="maybe_count">314</li>
+                            <li class="declined_count">32</li>
+                        </ul>
+                    </div>
+                    <div class="bottom-bar">
+                        <p class="description">
+                            This is a description of the event. It will be taking place whenever, wherever etc
+                            You should definitely come along it will be fun!
+                        </p>
+                        <button>I'm Going! :)</button>
+                        <button>I'm Can't Make It! :(</button>
+                    </div>
+                </div>
             </div>
         </div>
 

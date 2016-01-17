@@ -1,0 +1,22 @@
+.top-bar {
+    background-color: #086D44;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.bottom-bar {
+    background-color: #ccc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.start_time {
+    color: #FFF;
+}
+
+.name {
+    color: #FFF;
+}
+
+
+
