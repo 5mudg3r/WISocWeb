@@ -8,6 +8,16 @@
         <link href="../main.css" rel="stylesheet">
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script>(function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id))
+                    return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=APP-ID";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
         <div class="nav">
             <div class="container">
                 <ul class="pull-left">
@@ -40,7 +50,18 @@
         <div class="jumbotron">
             <div class="container">
                 <h1>Contact Us</h1>
-                <p>Our preferred method of communication is by email; we will endeavor to reply to all enquiries within 48 hours</p>
+                <p>Our preferred method of communication is through our facebook page; we will endeavor to reply to all enquiries within 48 hours</p>
+            </div>
+        </div>
+
+        <div class="info-panel">
+            <div class="container">
+                <div class="row">
+                <p>You can keep up to date with what's happening within the society by liking our <a href='https://www.facebook.com/warwickirishsociety/'>facebook page</a></p>
+                <p>If you want to contact us directly, feel free to leave us a message on the page.</p>
+                <div class="fb-page" data-href="https://www.facebook.com/warwickirishsociety/" data-tabs="messages, events" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/warwickirishsociety/"><a href="https://www.facebook.com/warwickirishsociety/">Warwick Irish Society</a></blockquote></div></div>
+                </div>
+                <p>Alternatively for any business enquiries, you can email the exec team at emailaddress@email.com</p>
             </div>
         </div>
 
