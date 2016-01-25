@@ -20,6 +20,12 @@
 }
 */
 
+.events-list {
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 25px 25px;
+}
+
 .events-list p {
     font-size: 180%;
     text-align: center;

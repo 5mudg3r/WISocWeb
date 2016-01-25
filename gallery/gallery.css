@@ -1,4 +1,4 @@
-
+/*
 .slider {
   position: relative;
   margin-top: 25px;
@@ -76,5 +76,17 @@
 
 .slider-dots li.active-dot {
   color: #2F863E;
+}
+*/
+
+.gallery-list {
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 25px 25px;
+}
+
+.gallery-list p {
+    text-align: center;
+    font-size: 150%;
 }
 
