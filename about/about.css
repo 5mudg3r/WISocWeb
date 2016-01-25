@@ -1,5 +1,13 @@
 .text-body h3 {
     color: #086D44;
+    font-size: 250%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.text-body p {
+    font-size: 125%;
+    text-align: center;
 }
 
 .col-md-4 {

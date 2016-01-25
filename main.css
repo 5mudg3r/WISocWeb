@@ -1,6 +1,10 @@
+body {
+    font-family: 'Bree Serif', serif;
+}
+
 .nav a {
   color: #086D44;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   padding: 14px 20px;
   text-transform: uppercase;
@@ -51,12 +55,12 @@
 
 .jumbotron h1 {
   color: #FFF;
-  font-size: 52px;  
+  font-size: 56px;  
   font-weight: bold;
 }
 
 .jumbotron p {
-  font-size: 24px;
+  font-size: 26px;
   color: #7CB833;
 }
 
