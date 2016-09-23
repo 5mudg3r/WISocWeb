@@ -1,7 +1,13 @@
+.events-list {
+    margin-top: -30px;
+    padding-top: 0px;
+}
+
 .event {
     background-color: #ccc;
     border-radius: 10px;
     margin: 40px 0px;
+    overflow: hidden;
 }
 
 .top-bar {
@@ -10,10 +16,6 @@
     border-top-right-radius: 10px;
     overflow: hidden;
     font-size: 16pt;
-}
-
-.bottom-bar {
-    overflow: hidden;
 }
 
 .top-bar h3 {
@@ -42,11 +44,31 @@
     font-size: 14pt;
 }
 
+.bottom-bar {
+    overflow: hidden;
+    display: inline;
+}
+
+.location {
+    float: left;
+    text-align: left;
+    margin: 0px 10px 10px;
+    color: #777;
+    font-size: 14pt;
+}
+
 .bottom-bar button {
     float: right;
     margin: 0px 10px 10px;
     border-radius: 5px;
     background-color: #FFF;
     font-size: 12pt;
+    outline: none;
+    color: #000;
+}
+
+.bottom-bar button:hover {
+    background-color: #7CB833;
+    color: #FFF;
 }
 
